@@ -36,11 +36,11 @@ Mukesh = [
 async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(0.3)
     await accha.edit("💣")
-    await asyncio.sleep(0.1)
+    await asyncio.sleep(0.2)
     await accha.edit("💥")
-    await asyncio.sleep(0.1)
+    await asyncio.sleep(0.2)
     await accha.edit("😈")
 
     await accha.delete()
