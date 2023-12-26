@@ -88,7 +88,7 @@ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 buttons = [
     [
         InlineKeyboardButton(text="🏡", url=f"https://t.me/The_ChatGroup"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="🙎", url=f"https://t.me/PB65_Aujla"),
         InlineKeyboardButton(text="🧑‍🤝‍🧑", url=f"tg://settings"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -385,7 +385,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -416,7 +416,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -583,7 +583,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -622,7 +622,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 ],
                  [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -652,7 +652,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="help|back"),
+        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
