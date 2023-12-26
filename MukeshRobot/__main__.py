@@ -78,7 +78,7 @@ PM_START_TEXT = """
 *🙋𝐇ᴇʏ* {} , 🥀
 *๏ I'M {} SQUARE YOUR GROUP!
 THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
-➻ *ANY HELP VISIT @Aujla_Chat_Group THANKS FOR USING AUJLA BOTS.*
+➻ *ANY HELP VISIT @The_ChatGroup THANKS FOR USING AUJLA BOTS.*
 ➖➖➖➖➖➖➖➖➖➖➖
    *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
    *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
@@ -87,7 +87,7 @@ THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 
 buttons = [
     [
-        InlineKeyboardButton(text="🏡", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="🏡", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="🙎", url=f"https://t.me/PB65_Aujla"),
         InlineKeyboardButton(text="🧑‍🤝‍🧑", url=f"tg://settings"),
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @PB65_Aujla ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @Aujla_Chat_Group ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @PB65_Aujla ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @The_ChatGroup ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -386,7 +386,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
-        InlineKeyboardButton(text="➕", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -417,7 +417,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
-        InlineKeyboardButton(text="➕", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -584,7 +584,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
                 [ [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
-        InlineKeyboardButton(text="➕", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -623,7 +623,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                  [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
-        InlineKeyboardButton(text="➕", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
@@ -653,7 +653,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🎧", callback_data="help|back"),
-        InlineKeyboardButton(text="➕", url=f"https://t.me/Aujla_Chat_Group"),
+        InlineKeyboardButton(text="➕", url=f"https://t.me/The_ChatGroup"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
