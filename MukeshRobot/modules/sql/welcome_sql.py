@@ -12,6 +12,7 @@ DEFAULT_GOODBYE = "Nice knowing ya!"
 
 DEFAULT_WELCOME_MESSAGES = [
     "‎ ",
+    "‎ ‎ ",
 ]
 DEFAULT_GOODBYE_MESSAGES = [
     "{first} will be missed.",
