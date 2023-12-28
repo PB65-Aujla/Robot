@@ -7,10 +7,11 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from MukeshRobot.modules.helper_funcs.msg_types import Types
 from MukeshRobot.modules.sql import BASE, SESSION
 
-DEFAULT_WELCOME = ""
+DEFAULT_WELCOME = "‎ "
 DEFAULT_GOODBYE = "Nice knowing ya!"
 
 DEFAULT_WELCOME_MESSAGES = [
+    "‎ ",
 ]
 DEFAULT_GOODBYE_MESSAGES = [
     "{first} will be missed.",
